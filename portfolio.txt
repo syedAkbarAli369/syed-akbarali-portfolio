@@ -1,0 +1,198 @@
+
+
+
+1. YOUTUBE CLONE
+https://cheel-tube.vercel.app/
+
+2. GEMINI CLONE
+https://cheelini.vercel.app/
+
+3. CHEEL COURSES
+https://cheel-courses.vercel.app/
+
+4. WALMART CLONE
+https://walmart-clone-gold-psi.vercel.app/
+
+5. FOOD DELIVERY
+https://food-delivery-three-ruby.vercel.app/
+
+6. DEEPSEEK CLONE
+https://deepseek-six-navy.vercel.app/
+
+7. COCKTAIL WEBSITE
+https://cocktail-drink.vercel.app/
+
+8. REDEFINE GAMING
+https://redefine-gaming-tan.vercel.app/
+
+9. SPYLT DRINK
+https://spylt-drink.vercel.app/
+
+10. BRAINWAVE WEBSITE
+https://cbrain.vercel.app/
+
+11. CHEELPAY 
+https://cheelpay.vercel.app/
+
+12. 3D KEYBOARD
+https://3d-keyboard-six.vercel.app/
+
+13. MINECRAFT CLONE
+https://mini-minecraft-alpha.vercel.app/
+
+14. ILLUVIUM GAMING
+https://illuvium-nu.vercel.app/
+
+15. 3D SHIRT CONFIGURATOR
+https://cheel-shirts.vercel.app/
+
+16. SHOE CONFIGURATOR 
+https://cheel-shoe.vercel.app/
+
+17. MODEL ANIMATION
+https://chloe-benett.vercel.app/
+
+18. RING CONFIGURATOR
+https://ring-configurator-nine.vercel.app/
+
+
+
+=====================================================================================
+
+
+
+const nextJSProjects = [
+  {
+    id: 1,
+    title: "Edusity",
+    img: '/images/n1.png',
+    github: 'https://github.com/syedAkbarAli369/Courses-website',
+    preview: 'https://cheel-courses.vercel.app/',
+  },
+  {
+    id: 2,
+    title: "Walmart Clone",
+    img: '/images/n2.png',
+    github: 'https://github.com/syedAkbarAli369/walmart-clone',
+    preview: 'https://walmart-clone-gold-psi.vercel.app/',
+  },
+  {
+    id: 3,
+    title: "HighFeast",
+    img: '/images/n3.png',
+    github: 'https://github.com/syedAkbarAli369/food-delivery',
+    preview: 'https://food-delivery-three-ruby.vercel.app/'
+  },
+  {
+    id: 4,
+    title: "Cheel Keyboard",
+    img: '/images/n4.png',
+    github: 'https://github.com/syedAkbarAli369/3d-keyboard',
+    preview: 'https://3d-keyboard-six.vercel.app/'
+  },
+]
+
+
+const reactGsapProjects = [
+  {
+    id: 1,
+    title: "Youtube Clone",
+    img: '/images/r1.png',
+    github: 'https://github.com/syedAkbarAli369/Youtube-clone',
+    preview: 'https://cheel-tube.vercel.app/'
+  },
+  {
+    id: 2,
+    title: "Gemini Clone",
+    img: '/images/r2.png',
+    github: 'https://github.com/syedAkbarAli369/Gemini-Clone',
+    preview: 'https://cheelini.vercel.app/'
+  },
+  {
+    id: 3,
+    title: "Cocktail Website",
+    img: '/images/r3.png',
+    github: 'https://github.com/syedAkbarAli369/GSAP-mojito',
+    preview: 'https://cocktail-drink.vercel.app/'
+  },
+  {
+    id: 4,
+    title: "Redefine Gaming",
+    img: '/images/r4.png',
+    github: 'https://github.com/syedAkbarAli369/gaming-website',
+    preview: 'https://redefine-gaming-tan.vercel.app/'
+  },
+  {
+    id: 5,
+    title: "Spylt",
+    img: '/images/r5.png',
+    github: 'https://github.com/syedAkbarAli369/spylt-drink',
+    preview: 'https://spylt-drink.vercel.app/'
+  },
+  {
+    id: 6,
+    title: "CBRAIN",
+    img: '/images/r6.png',
+    github: 'https://github.com/syedAkbarAli369/CBRAIN-website',
+    preview: 'https://cbrain.vercel.app/'
+  },
+  {
+    id: 7,
+    title: "CheelPay",
+    img: '/images/r7.png',
+    github: 'https://github.com/syedAkbarAli369/cheelpay',
+    preview: 'https://cheelpay.vercel.app/'
+  },
+  {
+    id: 8,
+    title: "Deepseek Clone",
+    img: '/images/r8.png',
+    github: 'https://github.com/syedAkbarAli369/deepseek',
+    preview: 'https://deepseek-six-navy.vercel.app/'
+  },
+]
+
+const threeJSProjects = [
+  {
+    id: 1,
+    title: "Minecraft Clone",
+    img: '/images/t1.png',
+    github: 'https://github.com/syedAkbarAli369/mini-minecraft',
+    preview: 'https://mini-minecraft-alpha.vercel.app/'
+  },
+  {
+    id: 2,
+    title: "Illuvium",
+    img: '/images/t2.png',
+    github: 'https://github.com/syedAkbarAli369/illuvium',
+    preview: 'https://illuvium-nu.vercel.app/'
+  },
+  {
+    id: 3,
+    title: "Shoe Configurator",
+    img: '/images/t3.png',
+    github: 'https://github.com/syedAkbarAli369/shoe-configurator',
+    preview: 'https://cheel-shoe.vercel.app/'
+  },
+  {
+    id: 4,
+    title: "T-Shirt Configurator",
+    img: '/images/t4.png',
+    github: 'https://github.com/syedAkbarAli369/3DShirt-configurator',
+    preview: 'https://cheel-shirts.vercel.app/'
+  },
+  {
+    id: 5,
+    title: "Model Animating",
+    img: '/images/t5.png',
+    github: 'https://github.com/syedAkbarAli369/Model-Animating',
+    preview: 'https://chloe-benett.vercel.app/'
+  },
+  {
+    id: 4,
+    title: "Ring Configurator",
+    img: '/images/t6.png',
+    github: 'https://github.com/syedAkbarAli369/3D-ring',
+    preview: 'https://ring-configurator-nine.vercel.app/'
+  },
+]
