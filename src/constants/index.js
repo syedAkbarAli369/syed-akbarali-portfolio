@@ -95,7 +95,7 @@ const nextJSProjects = [
   {
     id: 1,
     title: "HighFeast",
-    img: '/images/n3.png',
+    img: '/images/n3.PNG',
     github: 'https://github.com/syedAkbarAli369/food-delivery',
     preview: 'https://food-delivery-three-ruby.vercel.app/'
 
@@ -103,7 +103,7 @@ const nextJSProjects = [
   {
     id: 2,
     title: "Cheel Keyboard",
-    img: '/images/n4.png',
+    img: '/images/n4.PNG',
     github: 'https://github.com/syedAkbarAli369/3d-keyboard',
     preview: 'https://3d-keyboard-six.vercel.app/'
 
@@ -111,7 +111,7 @@ const nextJSProjects = [
   {
     id: 3,
     title: "Edusity",
-    img: '/images/n1.png',
+    img: '/images/n1.PNG',
     github: 'https://github.com/syedAkbarAli369/Courses-website',
     preview: 'https://cheel-courses.vercel.app/',
   },
@@ -119,7 +119,7 @@ const nextJSProjects = [
     id: 4,
     title: "Cheel Keyboard",
     title: "Walmart Clone",
-    img: '/images/n2.png',
+    img: '/images/n2.PNG',
     github: 'https://github.com/syedAkbarAli369/walmart-clone',
     preview: 'https://walmart-clone-gold-psi.vercel.app/',
   },
@@ -130,56 +130,56 @@ const reactGsapProjects = [
   {
     id: 1,
     title: "Redefine Gaming",
-    img: '/images/r4.png',
+    img: '/images/r4.PNG',
     github: 'https://github.com/syedAkbarAli369/gaming-website',
     preview: 'https://redefine-gaming-tan.vercel.app/'
   },
   {
     id: 2,
     title: "Spylt",
-    img: '/images/r5.png',
+    img: '/images/r5.PNG',
     github: 'https://github.com/syedAkbarAli369/spylt-drink',
     preview: 'https://spylt-drink.vercel.app/'
   },
   {
     id: 3,
     title: "Cocktail Website",
-    img: '/images/r3.png',
+    img: '/images/r3.PNG',
     github: 'https://github.com/syedAkbarAli369/GSAP-mojito',
     preview: 'https://cocktail-drink.vercel.app/'
   },
   {
     id: 4,
     title: "CBRAIN",
-    img: '/images/r6.png',
+    img: '/images/r6.PNG',
     github: 'https://github.com/syedAkbarAli369/CBRAIN-website',
     preview: 'https://cbrain.vercel.app/'
   },
   {
     id: 5,
     title: "Youtube Clone",
-    img: '/images/r1.png',
+    img: '/images/r1.PNG',
     github: 'https://github.com/syedAkbarAli369/Youtube-clone',
     preview: 'https://cheel-tube.vercel.app/'
   },
   {
     id: 6,
     title: "Deepseek Clone",
-    img: '/images/r8.png',
+    img: '/images/r8.PNG',
     github: 'https://github.com/syedAkbarAli369/deepseek',
     preview: 'https://deepseek-six-navy.vercel.app/'
   },
   {
     id: 7,
     title: "CheelPay",
-    img: '/images/r7.png',
+    img: '/images/r7.PNG',
     github: 'https://github.com/syedAkbarAli369/cheelpay',
     preview: 'https://cheelpay.vercel.app/'
   },
   {
     id: 8,
     title: "Gemini Clone",
-    img: '/images/r2.png',
+    img: '/images/r2.PNG',
     github: 'https://github.com/syedAkbarAli369/Gemini-Clone',
     preview: 'https://cheelini.vercel.app/'
   },
@@ -189,42 +189,42 @@ const threeJSProjects = [
   {
     id: 1,
     title: "Illuvium",
-    img: '/images/t2.png',
+    img: '/images/t2.PNG',
     github: 'https://github.com/syedAkbarAli369/illuvium',
     preview: 'https://illuvium-nu.vercel.app/'
   },
   {
     id: 2,
     title: "T-Shirt Configurator",
-    img: '/images/t4.png',
+    img: '/images/t4.PNG',
     github: 'https://github.com/syedAkbarAli369/3DShirt-configurator',
     preview: 'https://cheel-shirts.vercel.app/'
   },
   {
     id: 3,
     title: "Minecraft Clone",
-    img: '/images/t1.png',
+    img: '/images/t1.PNG',
     github: 'https://github.com/syedAkbarAli369/mini-minecraft',
     preview: 'https://mini-minecraft-alpha.vercel.app/'
   },
   {
     id: 4,
     title: "Model Animating",
-    img: '/images/t5.png',
+    img: '/images/t5.PNG',
     github: 'https://github.com/syedAkbarAli369/Model-Animating',
     preview: 'https://chloe-benett.vercel.app/'
   },
   {
     id: 5,
     title: "Shoe Configurator",
-    img: '/images/t3.png',
+    img: '/images/t3.PNG',
     github: 'https://github.com/syedAkbarAli369/shoe-configurator',
     preview: 'https://cheel-shoe.vercel.app/'
   },
   {
     id: 4,
     title: "Ring Configurator",
-    img: '/images/t6.png',
+    img: '/images/t6.PNG',
     github: 'https://github.com/syedAkbarAli369/3D-ring',
     preview: 'https://ring-configurator-nine.vercel.app/'
   },
