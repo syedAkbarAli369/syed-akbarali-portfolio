@@ -54,7 +54,7 @@ const About = () => {
           <h1 className={`font-bold xl:text-7xl lg:text-6xl md:text-5xl text-4xl text-yellow-300 ${batmanFont.className}`}>
             ABOUT ME
           </h1>
-          <p className={`mt-4 text-sm md:text-lg text-white max-w-3xl mx-auto ${lm.className}`}>
+          <p className={`mt-4 text-sm md:text-lg text-white max-w-4xl mx-auto ${lm.className}`}>
             I am a front-end designer from Pakistan who transforms ideas into
             interactive experiences. My work blends sleek web design, smooth GSAP
             animations, and 3D magic with Three.js to create websites that feel
