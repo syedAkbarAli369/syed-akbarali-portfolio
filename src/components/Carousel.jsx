@@ -55,8 +55,8 @@ const Carousel = ({ slides }) => {
                 fill
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 60vw"
                 className="object-cover object-center"
-                // quality={100} // remove blurriness
-                priority={index === 0} // preload only first
+              // quality={100} // remove blurriness
+              // priority={index === 0} // preload only first
               />
               <div className="absolute w-full h-18 bottom-0 left-0 bg-black bg-opacity-80 px-5">
                 <div className="w-full h-full flex justify-between items-center">
