@@ -1,11 +1,9 @@
-
 'use client'
 import localFont from 'next/font/local';
 import React, { useState } from 'react'
 import { zodResolver } from '@hookform/resolvers/zod'
 import { useForm } from 'react-hook-form'
 import * as Z from 'zod'
-import emailjs from '@emailjs/browser'
 
 const contactFormSchema = Z.object({
   name: Z.string().nonempty("Name is Required"),
@@ -42,31 +40,24 @@ const ContactForm = () => {
     setLoading(true);
 
     try {
+      const res = await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(data),
+      })
 
-      const serviceID = process.env.NEXT_PUBLIC_EMAIL_SERVICE_ID;
-      const templateID = process.env.NEXT_PUBLIC_EMAIL_TEMPLATE_ID
-      const publicKey = process.env.NEXT_PUBLIC_EMAIL_PUBLIC_KEY
+      if (!res.ok) {
+        throw new Error('Request failed')
+      }
 
-      await emailjs.send(
-        serviceID,
-        templateID,
-        {
-          name: data.name,
-          email: data.email,
-          title: data.subject,
-          message: data.message,
-          time: new Date().toLocaleString()
-        },
-        publicKey
-      )
+      reset(initialValues);
+      alert("Message Sent Successfully")
 
     } catch (error) {
       console.log("FAILED...", error);
       alert("Failed to send message, please try again.")
     } finally {
       setLoading(false);
-      reset(initialValues);
-      alert("Message Sent Successfully")
     }
 
   }

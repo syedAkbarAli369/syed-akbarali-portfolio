@@ -18,7 +18,7 @@ const NextProject = () => {
         {/* Title */}
         <div className="text-center mb-12">
           <h1
-            className={`font-bold xl:text-7xl lg:text-6xl md:text-5xl text-4xl text-yellow-300 ${batmanFont.className}`}
+            className={`font-bold xl:text-5xl lg:text-4xl md:text-3xl text-2xl text-yellow-300 ${batmanFont.className}`}
           >
             NEXT JS PROJECTS
           </h1>

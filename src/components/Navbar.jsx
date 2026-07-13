@@ -18,7 +18,6 @@ const Navbar = () => {
   const tl = useRef(null)
 
   useEffect(() => {
-    // Create timeline only once
     tl.current = gsap.timeline({ paused: true })
       .to(menuRef.current, {
         y: 0,
@@ -47,13 +46,13 @@ const Navbar = () => {
   }, [isOpen])
 
   return (
-    <div className="w-full fixed top-0 left-0 z-50 text-white shadow-lg">
+    <div className="w-full fixed top-0 left-0 z-50 text-white shadow-lg overflow-hidden">
       <div className="container mx-auto flex items-center justify-between py-5 px-6">
 
         {/* Logo */}
         <div className="flex items-center cursor-pointer">
 
-          <Link href="\">
+          <Link href="/">
 
             <Image src="/images/white.png"
               alt='logo'
@@ -66,7 +65,7 @@ const Navbar = () => {
         </div>
 
         {/* Desktop Nav */}
-        <div className="hidden md:flex gap-10 tracking-wide font-extrabold">
+        <div className="hidden md:flex items-center gap-9 tracking-wide font-extrabold">
           {navItems.map((item, index) => (
             <a
               key={index}
@@ -79,6 +78,14 @@ const Navbar = () => {
               <span className="absolute left-0 -bottom-1 h-[2px] w-0 bg-yellow-300 transition-all duration-500 group-hover:w-full"></span>
             </a>
           ))}
+
+          <a
+            href="/resume.pdf"
+            download
+            className={`px-5 py-2 bg-yellow-300 text-black text-sm rounded-md hover:bg-white transition-colors duration-300 ${lm.className}`}
+          >
+            Resume
+          </a>
         </div>
 
         {/* Mobile Hamburger */}
@@ -109,6 +116,7 @@ const Navbar = () => {
           <a
             key={index}
             href={item.href}
+            ref={(el) => (linksRef.current[index] = el)}
             className={`relative group text-3xl transition-colors duration-300 ${lm.className}`}
           >
             <span className="group-hover:text-yellow-300 transition-colors duration-300">
@@ -117,6 +125,14 @@ const Navbar = () => {
             <span className="absolute left-0 -bottom-1 h-[2px] w-0 bg-yellow-300 transition-all duration-500 group-hover:w-full"></span>
           </a>
         ))}
+
+        <a
+          href="/resume.pdf"
+          download
+          className={`px-8 py-3 bg-yellow-300 text-black text-xl rounded-md hover:bg-white transition-colors duration-300 ${lm.className}`}
+        >
+          Download Resume
+        </a>
       </div>
     </div>
   )

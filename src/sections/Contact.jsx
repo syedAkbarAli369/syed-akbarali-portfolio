@@ -1,4 +1,3 @@
-// src/sections/Contact.jsx
 "use client";
 
 import React from "react";
@@ -41,7 +40,6 @@ const Contact = () => {
 
             {/* Right: Contact Experience */}
             <div className="md:col-span-3 col-span-12">
-              {/* Make sure to adjust spacing classes if you use custom tailwind spacing */}
               <div className="w-full md:h-full h-96 md:absolute top-0 md:left-96 left-0 md:m-0 -mt-33 hidden md:flex bg-black">
                 <ContactExperience />
               </div>

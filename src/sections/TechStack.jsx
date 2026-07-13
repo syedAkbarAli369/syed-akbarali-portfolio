@@ -1,8 +1,8 @@
 'use client'
-import TechIcon from '@/components/TechIcon'
-import { iconsList } from '@/constants'
+
 import localFont from 'next/font/local'
 import React from 'react'
+import Skills from './Skills'
 
 // Custom fonts
 const batmanFont = localFont({
@@ -19,32 +19,26 @@ const TechStack = () => {
   return (
     <section
       id="techstack"
-      className="flex flex-col items-center justify-center bg-black text-white h-screen px-6 py-12 overflow-hidden"
+      className="relative flex flex-col items-center bg-black text-white h-screen px-6 py-6 overflow-hidden"
     >
+      {/* <SkillTrail /> */}
       <div className="max-w-6xl w-full">
         {/* Title */}
-        <div className="text-center mb-12">
+        <div className="text-center">
           <h1
-            className={`font-bold xl:text-7xl lg:text-6xl md:text-5xl text-4xl text-yellow-300 ${batmanFont.className}`}
+            className={`font-bold xl:text-5xl lg:text-4xl md:text-3xl text-2xl text-yellow-300 ${batmanFont.className}`}
           >
             TECH STACK
           </h1>
           <p
-            className={`mt-4 text-md md:text-lg text-white max-w-3xl mx-auto ${lm.className}`}
+            className={`mt-6 text-sm md:text-md text-white max-w-4xl mx-auto ${lm.className}`}
           >
-            My go-to tools for crafting interactive, smooth and immersive experiences.
+            My go-to tools for crafting interactive, smooth and immersive experiences. <br />Move your mouse around below to watch them come alive.
           </p>
         </div>
 
-        {/* Marquee Icons */}
-        <div className="marquee h-54">
-          <div className="marquee-box md:gap-12 gap-5"
-          >
-            {iconsList.concat(iconsList).map((icon, index) => (
-              <TechIcon key={index} icon={icon} />
-            ))}
-          </div>
-        </div>
+        <Skills />
+
       </div>
     </section>
   )

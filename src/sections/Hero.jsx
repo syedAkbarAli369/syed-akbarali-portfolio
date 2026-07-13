@@ -16,22 +16,11 @@ const Hero = () => {
 
   useGSAP(() => {
     const ctx = gsap.context(() => {
-      // Typing effect
-      gsap.from(".hero-title span", {
-        opacity: 0,
-        y: 40,
-        stagger: 0.05,
-        ease: "power2.out",
-        duration: 0.6,
-      })
-
-      // Background fade + zoom
       gsap.fromTo(".hero-bg",
         { scale: 1.1, opacity: 0 },
         { scale: 1, opacity: 1, duration: 2, ease: "power2.out" }
       )
 
-      // Arrow bounce
       gsap.to(".arrow-down", {
         y: 15,
         repeat: -1,
@@ -43,15 +32,6 @@ const Hero = () => {
 
     return () => ctx.revert()
   }, [])
-
-  // Utility to split text into spans
-  const splitText = (text) => {
-    return text.split("").map((char, i) => (
-      <span key={i} className="inline-block">
-        {char === " " ? "\u00A0" : char}
-      </span>
-    ))
-  }
 
   return (
     <section
@@ -73,10 +53,10 @@ const Hero = () => {
         <div className="container relative w-full h-full">
           <div className="md:mt-25 mt-20">
             <h1 className={`hero-title font-bold xl:text-8xl lg:text-8xl md:text-7xl text-4xl ${batmanFont.className}`}>
-              {splitText("SYED AKBAR ALI")}
+              SYED AKBAR ALI
             </h1>
-            <h1 className={`hero-title font-bold xl:text-8xl lg:text-8xl md:text-7xl text-4xl ${batmanFont.className}`}>
-              {splitText("CREATIVE")}
+            <h1 className={`hero-title font-bold lg:text-7xl md:text-6xl text-4xl ${batmanFont.className}`}>
+              FULLSTACK
             </h1>
           </div>
           <div className="absolute w-full z-30 bottom-18 right-0">
@@ -84,8 +64,8 @@ const Hero = () => {
               <div className="flex flex-col items-center md:gap-6 gap-1">
               </div>
               <div className="flex flex-col items-end">
-                <h1 className={`hero-title font-bold xl:text-8xl lg:text-8xl md:text-7xl text-4xl ${batmanFont.className}`}>
-                  {splitText("DEVELOPER")}
+                <h1 className={`hero-title font-bold lg:text-7xl md:text-6xl text-4xl ${batmanFont.className}`}>
+                  DEVELOPER
                 </h1>
               </div>
             </div>

@@ -1,13 +1,15 @@
-'use client'
+
+
 import React from 'react'
-import Carousel from '@/components/Carousel'
+import { fullStackProjects } from '@/constants'
 import localFont from 'next/font/local'
+import Carousel from '@/components/Carousel'
 
 const batmanFont = localFont({
   src: "../fonts/bat.ttf",
 })
 
-const Projects = () => {
+const FullStackProject = () => {
   return (
     <section
       id="projects"
@@ -16,19 +18,19 @@ const Projects = () => {
         {/* Title */}
         <div className="text-center mb-12">
           <h1
-            className={`font-bold xl:text-7xl lg:text-6xl md:text-5xl text-4xl text-yellow-300 ${batmanFont.className}`}
+            className={`font-bold xl:text-5xl lg:text-4xl md:text-3xl text-2xl text-yellow-300 ${batmanFont.className}`}
           >
-            NEXT JS PROJECTS
+            FULL STACK PROJECTS
           </h1>
         </div>
 
         {/* Carousel Section */}
         <div className="mt-9 md:mt-20">
-          <Carousel />
+          <Carousel slides={fullStackProjects} />
         </div>
       </div>
     </section>
   )
 }
 
-export default Projects
+export default FullStackProject

@@ -14,6 +14,7 @@ import ReactGsapProject from "@/sections/ReactGsapProject"
 import ThreeJsProject from "@/sections/ThreeJsProject"
 import Footer from "@/components/Footer"
 import Loader from "@/components/Loader"
+import FullStackProject from "@/sections/FullStackProject"
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -46,7 +47,7 @@ const StackedSections = () => {
   }, [])
 
   return (
-    <div ref={containerRef} className="w-full relative">
+    <div ref={containerRef} className="w-full relative overflow-hidden">
 
       <Loader />
 
@@ -62,10 +63,13 @@ const StackedSections = () => {
         <TechStack />
       </section>
       <section className="stack-card h-screen flex-center bg-gray-800 text-white">
-        <NextProject />
+        <FullStackProject />
       </section>
       <section className="stack-card h-screen flex-center bg-gray-800 text-white">
         <ReactGsapProject />
+      </section>
+      <section className="stack-card h-screen flex-center bg-gray-800 text-white">
+        <NextProject />
       </section>
       <section className="stack-card h-screen flex-center bg-gray-800 text-white relative z-10">
         <ThreeJsProject />
